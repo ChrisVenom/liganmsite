@@ -1,0 +1,66 @@
+#cabecalho{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+#corpo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    height: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    width: 70%;
+    background-color: white;
+}
+#rodape{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 96%;
+    padding: 10px 2%;
+    background-color: #5f6ade;
+    color: white;
+}
+.titulo{
+    color: red;
+    text-shadow: 3px 2px #f0d5d3;
+    font-size: 20px;
+}
+.subtitulo{
+    color: white;
+}
+.topico{
+    background-color: blue;
+    color: white;
+}
+.subtopico{
+    background-color: red;
+    color: white;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:red;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1306/feather_football-Sports_HD_Widescreen_Wallpaper_1366x768.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
